@@ -6,6 +6,23 @@ This project implements a simple cricket score tracking system using Java. It si
 
 The implementation consists of two main classes: `Main` and `ScoreCard`.
 
+### Sample input:
+
+```
+Please Enter TotalNo of Players in each Team:
+5
+Please Enter totalNo of Overs in match:
+2
+Team1: 
+over1: 1,1,1,1,1,2
+over2: W,4,4,Wd,W,1,6
+Team2: 
+over1: 4,6,W,W,1,1
+over2: 6,1,W,W
+
+Team1 won by 1 wicket & 4 runs!
+```
+
 ### Main Class
 
 The `Main` class initializes the game by taking user input for the number of players per team and the total number of overs in the match. It then creates instances of the `ScoreCard` class for both Team 1 and Team 2 and manages the match flow by taking input for each ball/over and updating the scorecards accordingly.
